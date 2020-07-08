@@ -127,6 +127,16 @@ main {
 	transform: rotate(-180deg);
   }
 
+main {
+	margin: 0px 75px;
+	text-align: center;
+	align-items: center;
+	justify-content: center;
+	font-size: large;
+	color: rgb(197, 197, 197);
+  }
+
+
 @media only screen and (max-width: 600px) {
 
 	.navbar {
@@ -146,11 +156,15 @@ main {
 .nav-link {
 	  justify-content: center;
 	}
-  
-main {
-	  margin: 0;
-	}
   }
+
+section{
+	padding-left: 10px;
+}
+
+aside{
+	margin-top: 50px;
+}
   
 @media only screen and (min-width: 600px) {
 
@@ -158,6 +172,17 @@ main {
 	  top: 0;
 	  width: 5rem;
 	  height: 100vh;
+	}
+
+	section{
+		float: left;
+		margin: 50px;
+	}
+	
+	aside{
+		float: right;
+		width: 15%;
+		margin-top: 50px;
 	}
   
   

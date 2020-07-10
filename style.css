@@ -3,6 +3,7 @@
 	font-family: 'Playfair Display';
 	background-color: #02022c;
 	margin-top: 10px;
+	padding: 5px;
 	--transition-speed: 600ms;
   }
 
@@ -15,6 +16,7 @@ body {
 
 .header {
 	background-color: #071e85;
+	padding: 30px;
 	text-align: center;
 }
 

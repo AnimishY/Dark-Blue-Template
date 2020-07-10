@@ -79,9 +79,7 @@ main {
 section{
 	padding: 10px;
 	font-weight: bolder;
-	font-size: 52px;
-	line-height: 70px;
-	letter-spacing: 4px;
+	font-size: 24px;
 }
   
 @keyframes glow {

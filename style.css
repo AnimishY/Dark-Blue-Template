@@ -1,93 +1,82 @@
 :root {
-	font-size: 16px;
-	font-family: 'Playfair Display';
-	background-color: #02022c;
-	margin-top: 10px;
-	padding: 5px;
-	--transition-speed: 600ms;
-  }
-
+  font-size: 16px;
+  font-family: "Playfair Display";
+  background-color: #02022c;
+  margin-top: 5px;
+  padding: 5px;
+  --transition-speed: 600ms;
+}
 
 body {
-	margin: 0px;
-	font-size: 28px;
-	font-family: 'Playfair Display';
+  margin: 0px;
+  font-size: 28px;
+  font-family: "Playfair Display";
 }
 
-.header {
-	background-color: #071e85;
-	padding: 30px;
-	text-align: center;
-}
-
-#navbar {
-	overflow: hidden;
-	background-color: #03135e;
-}
-
-#navbar a {
-	float: left;
-	display: block;
-	color: #294adb;
-	text-align: center;
-	padding: 14px 16px;
-	text-decoration: none;
-	font-size: 17px;
-}
-
-#navbar  a:hover {
-	background-color: #4664e9;
-	color: rgb(255, 255, 255);
-}
-
-navbar a.active {
-	background-color: #045aca;
-	color: rgb(255, 255, 255);
-}
-
-.content {
-	padding: 16px;
-}
-
-.sticky {
-	position: fixed;
-	top: 0px;
-	width: 100%;
-}
-
-.sticky + .content {
-	padding-top: 60px;
+header {
+  background-color: #071e85;
+  padding: 10px;
+  text-align: center;
 }
 
 main {
-	margin: 15px 75px;
-	font-size: large;
-	color: rgb(197, 197, 197);
-  }
+  font-size: large;
+  color: rgb(197, 197, 197);
+}
 
 .glow {
-	font-size: 48px;
-	color: #fff;
-	margin: 15px 15px;
-	text-align: center;
-	-webkit-animation: glow 1s ease-in-out infinite alternate;
-	-moz-animation: glow 1s ease-in-out infinite alternate;
-	animation: glow 1s ease-in-out infinite alternate;
-  }
-
-
-section{
-	padding: 10px;
-	font-weight: bolder;
-	font-size: 24px;
+  font-size: 48px;
+  color: #fff;
+  margin: 15px 15px;
+  text-align: center;
+  -webkit-animation: glow 1s ease-in-out infinite alternate;
+  -moz-animation: glow 1s ease-in-out infinite alternate;
+  animation: glow 1s ease-in-out infinite alternate;
 }
-  
+
+.topnav {
+  overflow: hidden;
+  background-color: rgb(26, 3, 131);
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: rgb(17, 31, 223);
+  color: rgb(197, 197, 197);
+}
+
+.topnav a.active {
+  background-color: #3361b8;
+  color: white;
+}
+
+section {
+  padding: 10px;
+  font-weight: bolder;
+  font-size: 24px;
+}
+
+p {
+	font-size: 3vw;
+}
+
 @keyframes glow {
-	from {
-	  text-shadow: 0 0 10px rgb(197, 197, 197), 0 0 20px #fff, 0 0 30px #04a3ca, 0 0 40px #04a3ca, 0 0 50px #04a3ca, 0 0 60px #04a3ca, 0 0 70px #04a3ca;
-	}
-	
-	to {
-	  text-shadow: 0 0 20px rgb(197, 197, 197), 0 0 30px #1433bd, 0 0 40px #1433bd, 0 0 50px #1433bd, 0 0 60px #1433bd, 0 0 70px #1433bd, 0 0 80px #1433bd;
-	}
+  from {
+    text-shadow: 0 0 10px rgb(197, 197, 197), 0 0 20px #fff, 0 0 30px #04a3ca,
+      0 0 40px #04a3ca, 0 0 50px #04a3ca, 0 0 60px #04a3ca, 0 0 70px #04a3ca;
   }
+
+  to {
+    text-shadow: 0 0 20px rgb(197, 197, 197), 0 0 30px #1433bd, 0 0 40px #1433bd,
+      0 0 50px #1433bd, 0 0 60px #1433bd, 0 0 70px #1433bd, 0 0 80px #1433bd;
+  }
+}

@@ -59,8 +59,6 @@ main {
   color: white;
 }
 
-
-
 section {
   padding: 10px;
   font-weight: bolder;
@@ -81,4 +79,12 @@ p {
     text-shadow: 0 0 20px rgb(197, 197, 197), 0 0 30px #1433bd, 0 0 40px #1433bd,
       0 0 50px #1433bd, 0 0 60px #1433bd, 0 0 70px #1433bd, 0 0 80px #1433bd;
   }
+}
+
+.endcontent {
+  align-items: center;
+  text-align: center;
+  font-size: 2vw;
+  color: rgb(165, 165, 165);
+  background-color: #06165c;
 }

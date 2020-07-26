@@ -13,6 +13,7 @@ More themes and templates soon!
 
 
 **To support and motivate me to provide all with free templates, Attribute me in your README and you may e-mail me to inform me with your feedback and with information about the company/organization/group you will use the template for, and your suggestions are most welcome !**
+
 E-mail: animishyadav@outlook.com
 
 
